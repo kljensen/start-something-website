@@ -1,0 +1,88 @@
+html { 
+  background: url(/static/img/branford-large.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+	color: rgb(13, 77, 145);
+}
+
+body{
+	background: none;
+	font-family: 'PT Serif', Georgia, sans-serif;
+	font-size: 16px;
+}
+
+#firstrow p{
+	margin-top: 1.2em;
+	padding-left: 0.6em;
+}
+#firstrow ul{
+	margin-left: 1.2em;
+}
+#firstrow ul li span{
+	margin-right:0.3em;
+}
+#firstrow .find{
+	text-align: center;
+	margin:1.2em 0;
+}
+
+h1, h2, h3, button{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1{
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 0.9;
+}
+
+h1 span{
+	font-weight: 400;
+	text-transform: none;
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 28px;
+}
+h1 span a{
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 0.4);
+}
+h1 span a:hover{
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+h1, h2{
+	background: rgba(13, 77, 145, 0.80);
+	color: #fff;
+	padding: 0.25em;
+}
+
+h3{
+	border-bottom: 1px solid rgba(151, 141, 133, 100);
+}
+
+.row{
+	margin-top: 2.4em;
+	background: rgba(255, 255, 255, 0.8);
+}
+.skip{
+	background: none;
+	height: 2em;
+}
+
+#class-photos{
+	margin: 1em 0;
+	border: 10px solid white;
+}
+
+@media (min-width: 1200px) {
+	#firstrow, #firstrow button{
+		font-size: 20px;
+	}
+
+}

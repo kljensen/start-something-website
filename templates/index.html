@@ -1,1 +1,61 @@
 {% extends "layout.html" %}
+
+{% block main %}
+  <div class="row" id="firstrow">
+    <div class="col-md-6">
+      <h1>
+        Start Something at Yale
+        <span>
+          <br>
+          with the
+          <a href="http://yale.edu">
+            Yale Entrepreneurial Institute
+          </a>
+        </span>
+      </h1>
+      <p>
+        &ldquo;Start Something&rdquo; is a workshop
+        where Yale students and faculty can learn the
+        basic tools that entreprenuers use to launch
+        new companies including:
+      </p>
+      <ul class="list-unstyled">
+        <li>
+          <span class="glyphicon glyphicon-check"></span>
+          the <a href="http://en.wikipedia.org/wiki/Lean_Startup">
+          Lean Start-up</a> method;
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-check"></span>
+          <a href="http://steveblank.com/category/customer-development-manifesto/">customer development</a>; and,
+        </li>
+        <li>
+          <span class="glyphicon glyphicon-check"></span>
+          finding <a href="http://www.stanford.edu/class/ee204/ProductMarketFit.html">product&ndash;market fit</a>.
+        </li>
+      </ul>
+      <div class="find">
+        <button type="button" class="btn btn-default btn-lg btn-block">
+          Find a workshop date &raquo;
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6 visible-lg visible-md">
+      {% include "partials/carousel.html" %}
+    </div>
+  </div>
+  <div class="row info">
+    <div class="col-md-6">
+      <h3>Dates</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <h3>Instructors</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </div>
+{% endblock %}

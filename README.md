@@ -39,3 +39,7 @@ First, add a git remote called "heroku"
 Then, push to it
 
 	git push heroku master
+
+### Credits
+
+* [Branford court photo](http://www.flickr.com/photos/pneedham/1907900037/sizes/o/)

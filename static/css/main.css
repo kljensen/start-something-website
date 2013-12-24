@@ -1,19 +1,32 @@
 html { 
-  background: url(/static/img/branford-large.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	/* For background cover on Android */
+	height: 100%;
+	min-height: 700px;
+}
+body{
+	/* For background cover on Android */
+	width: 100%;
+	height: 100%;
+	padding-bottom: 2.4em;
+	/* Set up a background that will cover the page */
+	background: rgb(151, 141, 133) url(/static/img/branford-large.jpg) no-repeat center center fixed; 
+	/* Handle old browsers */
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    /* Now set to cover */
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'PT Serif', Georgia, sans-serif;
+	font-size: 16px;
+	overflow-y: scroll;
 }
 
 a{
 	color: rgb(13, 77, 145);
-}
-
-body{
-	background: none;
-	font-family: 'PT Serif', Georgia, sans-serif;
-	font-size: 16px;
 }
 
 #firstrow p{
@@ -68,6 +81,7 @@ h3{
 
 .row{
 	margin-top: 2.4em;
+	margin-bottom: 2.4em;
 	background: rgba(255, 255, 255, 0.8);
 }
 .skip{

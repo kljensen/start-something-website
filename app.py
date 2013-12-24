@@ -7,14 +7,24 @@
 from flask import Flask
 from flask import render_template
 import glob
-import logging
+import random
+
 app = Flask(__name__)
 
 
 @app.route('/')
-def hello():
+def index():
+    """ Handler for the home page.
+    """
+
+    # Get the list of images we want to display in
+    # our carousel on the home page. Shuffle them.
+    #
     carousel_images = glob.glob('static/img/carousel/*.jpg')
-    logging.info(carousel_images)
+    random.shuffle(carousel_images)
+
+    # Render the template and return it in the response.
+    #
     return render_template(
         "index.html",
         carousel_images=carousel_images

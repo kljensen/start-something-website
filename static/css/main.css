@@ -9,7 +9,7 @@ body{
 	height: 100%;
 	padding-bottom: 2.4em;
 	/* Set up a background that will cover the page */
-	background: rgb(151, 141, 133) url(/static/img/branford-large.jpg) no-repeat center center fixed; 
+	background: rgb(151, 141, 133) url(/static/img/branford-medium.jpg) no-repeat center center fixed; 
 	/* Handle old browsers */
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -94,9 +94,16 @@ h3{
 	border: 10px solid white;
 }
 
+/* Large devices, usually laptops and above */
 @media (min-width: 1200px) {
 	#firstrow, #firstrow button{
 		font-size: 20px;
 	}
+}
 
+/* Tablets and above */
+@media (min-width: 768px) {
+	body{
+		background: rgb(151, 141, 133) url(/static/img/branford-large.jpg) no-repeat center center fixed; 
+	}
 }

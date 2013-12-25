@@ -100,6 +100,28 @@ img.instructor{
 	border: solid 5px white;
 }
 
+/* Class dates, see http://line25.com/tutorials/how-to-create-a-cool-blog-post-date-icon-with-css */
+.date {
+	width: 64px;
+	border: solid 1px #ccc;
+	padding:5px;
+	background: #fff;
+}
+.date p {
+	padding: 0;
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 36px;
+	line-height: 1;
+	text-align: center;
+}
+.date p span {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+}
+
 /* Large devices, usually laptops and above */
 @media (min-width: 1200px) {
 	#firstrow, #firstrow button{

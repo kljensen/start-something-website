@@ -61,8 +61,7 @@ h1 span{
 	font-size: 28px;
 }
 h1 span a{
-	text-decoration: underline;
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.6);
 }
 h1 span a:hover{
 	color: rgba(255, 255, 255, 0.8);
@@ -82,7 +81,7 @@ h3{
 .row{
 	margin-top: 2.4em;
 	margin-bottom: 2.4em;
-	background: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.85);
 }
 .skip{
 	background: none;
@@ -92,6 +91,13 @@ h3{
 #class-photos{
 	margin: 1em 0;
 	border: 10px solid white;
+	outline: 1px solid #ccc;
+}
+a.instructor{
+	border: solid 1px #ccc;
+}
+img.instructor{
+	border: solid 5px white;
 }
 
 /* Large devices, usually laptops and above */

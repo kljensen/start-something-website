@@ -88,6 +88,9 @@ h4{
 	margin-bottom: 2.4em;
 	background: rgba(255, 255, 255, 0.85);
 }
+div.info{
+	padding-bottom: 16px;
+}
 .skip{
 	background: none;
 	height: 2em;

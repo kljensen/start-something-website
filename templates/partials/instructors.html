@@ -1,61 +1,29 @@
 <h3>Instructors</h3>
 <ul class="media-list">
+  {% for instructor in instructors %}
   <li class="media">
     <div class="pull-left">
-      <a class="instructor" href="http://www.linkedin.com/in/alenagribskov">
-        <img class="media-object instructor" src="/static/img/alena.png" alt="Alena Gribskov" width=64>
+      <a class="instructor" href="{{instructor.url}}">
+        <img class="media-object instructor"
+          src="{{instructor.avatar}}"
+          alt="{{instructor.name}}" width="64">
       </a>
+      {% if instructor.links %}
       <p class="instructor-social">
-        <a href="http://www.twitter.com/yeitweets">
-          <i class="fa fa-twitter"></i>
+        {% for link in instructor.links %}
+        <a href="{{link.url}}">
+          <i class="fa {{link.fa_icon}}"></i>
         </a>
-        <a href="http://www.linkedin.com/in/alenagribskov/">
-          <i class="fa fa-linkedin"></i>
-        </a>
+        {% endfor %}
       </p>
+      {% endif %}
     </div>
     <div class="media-body">
       <h4 class="media-heading">
-        Alena Gribsov
+        {{instructor.name}}
       </h4>
-      Alena is Program Director at YEI, where she leads extracurricular programs to recruit, instruct, and support student entrepreneurs.
-      These programs include YEI's Tech Bootcamp, Start Something,
-      and the flagship Summer. Alena is a former YEI fellow, graduate
-      of Yale University, and founder of a digital publishing startup. 
+      {{instructor.bio|safe}}
     </div>
   </li>
-  <li class="media">
-    <div class="pull-left">
-
-      <a class="instructor" href="http://www.linkedin.com/in/kylelawrencejensen/">
-        <img class="media-object instructor" src="/static/img/kyle.png" alt="Kyle Jensen" width=64>
-      </a>
-      <p class="instructor-social">
-        <a href="http://www.github.com/kljensen">
-          <i class="fa fa-github-alt"></i>
-        </a>
-        <a href="http://www.twitter.com/datakyle">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a href="http://www.linkedin.com/in/kylelawrencejensen/">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </p>
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading">
-        Kyle Jensen
-      </h4>
-      Kyle is volunteer mentor at YEI, where he helps a variety of
-      student and faculty&ndash;founded ventures. He is also an
-      angel investor, scientist, and entrepreneur.
-      Kyle has co-founded three ventures: Pit Rho, motorsport analytics;
-      PriorSmart, patent litigation analytics
-      (acquired by RPX Corp, Nasdaq:RPXC); and
-      Agrivida, renewable fuels and chemicals.
-      He has a Ph.D. from MIT. 
-
-    </div>
-  </li>
-
+  {% endfor %}
 </ul>

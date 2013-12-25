@@ -8,7 +8,7 @@ from flask import Flask
 from flask import render_template
 import glob
 import random
-
+import models
 app = Flask(__name__)
 
 
@@ -27,7 +27,8 @@ def index():
     #
     return render_template(
         "index.html",
-        carousel_images=carousel_images
+        carousel_images=carousel_images,
+        instructors=models.instructors,
     )
 
 

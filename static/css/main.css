@@ -83,6 +83,12 @@ h4{
 	font-size: 20;
 	color:#000;
 }
+span.label{
+	font-size: 12px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
 
 .row{
 	margin-top: 2.4em;
@@ -118,7 +124,13 @@ p.instructor-social a{
 	color: rgba(51, 51, 51, 0.5);
 }
 
-/* Class dates, see http://line25.com/tutorials/how-to-create-a-cool-blog-post-date-icon-with-css */
+li.media{
+	margin-bottom: 24px;
+}
+/* Class dates */
+.date-container{
+	text-align: center;
+}
 .date {
 	width: 64px;
 	border: solid 1px #ccc;

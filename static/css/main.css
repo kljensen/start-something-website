@@ -182,8 +182,11 @@ strong{
 }
 
 footer{
-	padding:16px;
 	background: rgba(255, 255, 255, 0.5);
+	padding-bottom: 16px;
+}
+footer h5{
+	margin-top: 20px;
 }
 /* Large devices, usually laptops and above */
 @media (min-width: 1200px) {

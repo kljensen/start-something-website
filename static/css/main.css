@@ -132,7 +132,7 @@ p.instructor-social a{
 li.media{
 	margin-bottom: 24px;
 }
-li.media button{
+li.media .btn{
 	margin-top: 8px;
 }
 /* Class dates */

@@ -1,63 +1,25 @@
 <h3><a name="dates">Upcoming Dates</a></h3>
 <ul class="media-list">
+  {% for workshop in workshops %}
+  {% if workshop.show %}
   <li class="media">
     <div class="pull-left date-container">
       <div class="date">
-        <p>28<span>Feb</span></p>
+        <p>{{workshop.date.strftime('%d')}}<span>{{workshop.date.strftime('%b')}}</span></p>
       </div>
-      <button type="button" class="btn btn-primary btn-block btn-xs">
+      <a href="https://docs.google.com/forms/d/{{workshop.google_docs_form_id}}/closedform"
+        class="btn btn-primary btn-block btn-xs"
+        {% if workshop.disabled %}disabled{% endif %}>
         Apply
-      </button>
+      </a>
     </div>
     <div class="media-body">
-      <h4 class="media-heading">Start Something Engineering</h4>
+      <h4 class="media-heading">{{workshop.title}}</h4>
       <p>
-        Preference given to students in engineering and the sciences.
-        Extra focus on new ventures based on primary research.
-        Applications due by 1/8/2013.
-        Location: Yale Engineering CEID
+        {{workshop.description|safe}}
       </p>
     </div>
   </li>
-  <li class="media">
-    <div class="pull-left date-container">
-      <div class="date">
-        <p>14<span>Jan</span></p>
-      </div>
-      <button type="button" class="btn btn-primary btn-block btn-xs">
-        Apply
-      </button>
-    </div>
-
-    <div class="media-body">
-      <h4 class="media-heading">Start Something, General</h4>
-      <p>
-        All students and faculty welcome.  This class will help
-        students prepare for the YEI summer fellowship application.
-        Applications due by 2/15/2013.
-        Location: Yale SOM
-      </p>
-    </div>
-  </li>
-  <li class="media">
-    <div class="pull-left date-container">
-      <div class="date">
-        <p>14<span>Jan</span></p>
-      </div>
-      <button type="button" class="btn btn-primary btn-block btn-xs" disabled>
-        Apply
-      </button>
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading">
-        Start Something, General
-      </h4>
-      <p>
-        All students and faculty welcome.  This class will help
-        students prepare for the YEI summer fellowship application.
-        Applications due by 2/15/2013.
-        Location: Yale SOM.
-      </p>
-    </div>
-  </li>
+  {% endif %}
+  {% endfor %}
 </ul>

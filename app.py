@@ -29,6 +29,7 @@ def index():
         "index.html",
         carousel_images=carousel_images,
         instructors=models.instructors,
+        workshops=models.workshops,
     )
 
 

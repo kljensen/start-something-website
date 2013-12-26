@@ -76,6 +76,7 @@ h1, h2{
 
 h3{
 	border-bottom: 1px solid rgba(151, 141, 133, 100);
+	margin-bottom: 16px;
 }
 h4{
 	font-family: 'PT Serif', Georgia, sans-serif;

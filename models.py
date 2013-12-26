@@ -18,7 +18,7 @@ Agrivida, renewable fuels and chemicals.
 He has a Ph.D. from MIT. """
 
 alena_bio = """
-Alena is Program Director at YEI, where she leads extracurricular =
+Alena is Program Director at YEI, where she leads extracurricular
 programs to recruit, instruct, and support student entrepreneurs.
 These programs include YEI's Tech Bootcamp, Start Something,
 and the flagship Summer Fellowship. Alena is a former YEI fellow, graduate

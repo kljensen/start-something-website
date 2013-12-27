@@ -45,8 +45,8 @@ Start Something at Yale
         </a>
       </div>
     </div>
-    <div class="col-md-6 visible-lg visible-md">
-      {% include "partials/carousel.html" %}
+    <div class="col-md-6 visible-lg visible-md" id="carousel-holder">
+      <!-- Our carousel will be loaded via AJAX here when appropriate. -->
     </div>
   </div>
   <div class="row info content-row">
@@ -57,4 +57,10 @@ Start Something at Yale
       {% include "partials/dates.html" %}
     </div>
   </div>
+{% endblock %}
+
+{% block bottom_js %}
+  <script type="text/javascript">
+    {% include "partials/load_carousel.js" %}
+  </script>
 {% endblock %}

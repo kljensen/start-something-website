@@ -29,15 +29,24 @@ $(document).ready(function(){
     loading = true;
     $.get('/carousel')
       .done(function(htmlFragment){
+
+        // Add the carousel to the DOM
         $(holderId).html(htmlFragment);
+
+        // Save that we're loaded
         loaded = true;
+
+        // Unbind the callback so that it never
+        // fires again
+        $(window).unbind('resize', loadCarousel);
+
       })
       .always(function(){loading = false});
   }
 
   // Try to load the carousel on window resize.
   // 
-  $(window).resize(loadCarousel);
+  $(window).bind('resize', loadCarousel);
 
   // Try to load the carousel once when the DOM is ready.
   // 

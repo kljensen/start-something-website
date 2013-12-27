@@ -43,3 +43,8 @@ Then, push to it
 ### Credits
 
 * [Branford court photo](http://www.flickr.com/photos/pneedham/1907900037/sizes/o/)
+
+### Contributors
+
+* [Kyle Jensen](http://www.github.com/kljensen)
+* [Alena Gribskov](https://github.com/marahaya)

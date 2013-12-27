@@ -1,20 +1,7 @@
-html { 
-	/* For background cover on Android */
+html{
+	overflow: hidden;
 	height: 100%;
-	min-height: 700px;
-}
-body{
-	/* For background cover on Android */
-	width: 100%;
-	height: 100%;
-	padding-bottom: 2.4em;
-	/* Set up a background that will cover the page */
-	background: rgb(151, 141, 133) url(/static/img/branford-medium.jpg) no-repeat center center fixed; 
-	/* Handle old browsers */
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
+	background: rgb(151, 141, 133) url(/static/img/branford-medium.jpg) no-repeat center center fixed;
     /* Now set to cover */
     -webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -22,7 +9,15 @@ body{
 	background-size: cover;
 	font-family: 'PT Serif', Georgia, sans-serif;
 	font-size: 16px;
-	overflow-y: scroll;
+	background-attachment: scroll;
+}
+body{
+	background: none;
+	/* For background cover on Android */
+	padding-bottom: 2.4em;
+	/* Set up a background that will cover the page */
+	overflow: auto;
+	height: 100%;
 }
 
 a{
@@ -153,6 +148,7 @@ li.media .btn{
 
 strong{
 	color: #000;
+	font-weight: normal;
 }
 
 /* Class dates */
@@ -197,7 +193,7 @@ footer h5{
 
 /* Tablets and above */
 @media (min-width: 768px) {
-	body{
+	html{
 		background: rgb(151, 141, 133) url(/static/img/branford-large.jpg) no-repeat center center fixed; 
 	}
 }

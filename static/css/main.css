@@ -7,7 +7,6 @@ html{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	font-family: 'PT Serif', Georgia, sans-serif;
 	font-size: 16px;
 	background-attachment: scroll;
 }
@@ -18,6 +17,7 @@ body{
 	/* Set up a background that will cover the page */
 	overflow: auto;
 	height: 100%;
+	font-family: 'PT Serif', Georgia, sans-serif;
 }
 
 a{

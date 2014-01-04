@@ -15,11 +15,12 @@ instructors = [
         "name": "Alena Gribskov",
         "bio": """
             Alena is Program Director at YEI, where she leads extracurricular
-            programs to recruit, instruct, and support student entrepreneurs.
-            These programs include YEI's Tech Bootcamp, Start Something,
-            and the flagship Summer Fellowship. Alena is a former YEI fellow,
+            programs to recruit, instruct, and support Yale entrepreneurs.
+            These programs include YEI's flagship Summer Fellowship as well
+            as the YEI Tech Bootcamp and Start Something programs, which she
+            co&ndash;created. Alena is a former YEI fellow,
             graduate of Yale University, and founder of
-            a digital publishing startup.
+            Blind Pig Media, a digital publisher.
         """,
         "url": "http://www.linkedin.com/in/alenagribskov/",
         "avatar": "/static/img/alena.png",
@@ -40,8 +41,8 @@ instructors = [
             Kyle is volunteer mentor at YEI, where he helps a variety of
             student and faculty&ndash;founded ventures. He is also an
             angel investor, scientist, and entrepreneur.
-            Kyle has co-founded three ventures: Pit Rho, motorsport analytics;
-            PriorSmart, patent litigation analytics
+            Kyle has co&ndash;founded three ventures: Pit Rho, motorsport
+            analytics; PriorSmart, patent litigation analytics
             (acquired by RPX Corp, Nasdaq:RPXC); and
             Agrivida, renewable fuels and chemicals.
             He has a Ph.D. from MIT.
@@ -73,9 +74,10 @@ workshops = [
         "date": datetime.date(2014, 1, 14),
         "google_docs_form_id": "1zOb70KGf3R6X5vozKzX_Md3ZMQt5D452gHLbQv5hytg",
         "description": """
-            5-10pm. All students and faculty welcome. This class will help students
+            All students and faculty welcome. This class will help students
             prepare for the YEI summer fellowship application. Applications
-            due by 1/8. Location: Yale SOM.
+            due by 1/10 before midnight. Location: Yale SOM 1/14 5-10pm,
+            Room TDB.
         """,
         "show": True,
         "disabled": False,
@@ -85,9 +87,10 @@ workshops = [
         "date": datetime.date(2014, 1, 31),
         "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
         "description": """
-            12-5:30pm. Preference given to students working on food-based products
-            and ventures.  In collaboration with the Yale Sustainable Food Project
-            Applications due by 1/26. Location: TBA.
+            Preference given to students interested in food-related products
+            and ventures.  Hosted in collaboration with the Yale Sustainable
+            Food Project.
+            Applications due by 1/26 before midnight. Location: TBD.
         """,
         "show": True,
         "disabled": False,
@@ -97,9 +100,10 @@ workshops = [
         "date": datetime.date(2014, 2, 28),
         "google_docs_form_id": "1oNuBtxXTi9IhAh7QCR6gWs5nJ4AcwKimeMRhndSypq0",
         "description": """
-            12-5:30pm. Preference given to students in engineering and the sciences.
-            Extra focus on new ventures based on primary research.
-            Applications due by 2/23. Location: Yale Engineering CEID.
+            Preference given to students in engineering and the
+            sciences with an interest in new ventures based on primary
+            research. Applications due by 2/23 before midnight.
+            Location: Yale Engineering CEID, 2/28 12-5:30pm.
         """,
         "show": True,
         "disabled": False,

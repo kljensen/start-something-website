@@ -77,7 +77,7 @@ workshops = [
             All students and faculty welcome. This class will help students
             prepare for the YEI summer fellowship application. Applications
             due by 1/10 before midnight. Location: Yale SOM 1/14 5-10pm,
-            Room TDB.
+            Room TBD.
         """,
         "show": True,
         "disabled": False,

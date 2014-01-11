@@ -75,12 +75,14 @@ workshops = [
         "google_docs_form_id": "1zOb70KGf3R6X5vozKzX_Md3ZMQt5D452gHLbQv5hytg",
         "description": """
             All students and faculty welcome. This class will help students
-            prepare for the YEI summer fellowship application. Applications
-            due by 1/10 before midnight. Location: Yale SOM 1/14 5-10pm,
-            Room TBD.
+            prepare for the YEI summer fellowship application. Class is FULL,
+            no longer accepting new applications.
+            Location:
+            <a href="https://www.google.com/maps?q=165+Whitney+Avenue,+06511&hnear=165+Whitney+Ave,+New+Haven,+Connecticut+06511&t=h&z=16">
+            Evans Hall</a>, Yale SOM, Room 2230, Tuesday 1/14 5-10pm.
         """,
         "show": True,
-        "disabled": False,
+        "disabled": True,
     },
     {
         "title": "Start Something, Food",

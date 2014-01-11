@@ -78,7 +78,7 @@ workshops = [
             prepare for the YEI summer fellowship application. Class is FULL,
             no longer accepting new applications.
             Location:
-            <a href="https://www.google.com/maps?q=165+Whitney+Avenue,+06511&hnear=165+Whitney+Ave,+New+Haven,+Connecticut+06511&t=h&z=16">
+            <a href="http://map.yale.edu/map/#building:EVANS">
             Evans Hall</a>, Yale SOM, Room 2230, Tuesday 1/14 5-10pm.
         """,
         "show": True,

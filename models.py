@@ -105,7 +105,9 @@ workshops = [
             Preference given to students in engineering and the
             sciences with an interest in new ventures based on primary
             research. Applications due by 2/23 before midnight.
-            Location: Yale Engineering CEID, 2/28 12-5:30pm.
+            Location:
+            <a href="http://map.yale.edu/map/#search:ceid">
+            Becton Center</a>, CEID, 2/28 12-5:30pm.
         """,
         "show": True,
         "disabled": False,

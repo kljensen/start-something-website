@@ -81,7 +81,7 @@ workshops = [
             <a href="http://map.yale.edu/map/#building:EVANS">
             Evans Hall</a>, Yale SOM, Room 2230, Tuesday 1/14 5-10pm.
         """,
-        "show": True,
+        "show": False,
         "disabled": True,
     },
     {
@@ -90,8 +90,9 @@ workshops = [
         "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
         "description": """
             Preference given to students interested in food-related products
-            and ventures.  Hosted in collaboration with the Yale Sustainable
-            Food Project.
+            and ventures.  Hosted in collaboration with the
+            <a href="http://yale.edu/sustainablefood/">
+                Yale Sustainable Food Project</a>.
             Applications due by 1/26 before midnight. Location: TBD.
         """,
         "show": True,

@@ -93,7 +93,8 @@ workshops = [
             and ventures.  Hosted in collaboration with the
             <a href="http://yale.edu/sustainablefood/">
                 Yale Sustainable Food Project</a>.
-            Applications due by 1/29 before midnight. Location: TBD.
+            Applications due by 1/29 before midnight. Location:
+            <a href="http://yei.yale.edu/">YEI</a>.
         """,
         "show": True,
         "disabled": False,

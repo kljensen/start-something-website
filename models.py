@@ -96,8 +96,8 @@ workshops = [
             Applications due by 1/29 before midnight. Location:
             <a href="http://yei.yale.edu/">YEI</a>.
         """,
-        "show": True,
-        "disabled": False,
+        "show": False,
+        "disabled": True,
     },
     {
         "title": "Start Something, Engineering",

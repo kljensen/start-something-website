@@ -106,7 +106,7 @@ workshops = [
         "description": """
             Preference given to students in engineering and the
             sciences with an interest in new ventures based on primary
-            research. Applications due by 2/23 before midnight.
+            research. Applications due the evening of 2/24 before midnight.
             Location:
             <a href="http://map.yale.edu/map/#search:ceid">
             Becton Center</a>, CEID, 2/28 12-5:30pm.

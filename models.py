@@ -36,66 +36,102 @@ instructors = [
         ]
     },
     {
-        "name": "Kyle Jensen",
+         "name": "Margaret Lee",
         "bio": """
-            Kyle is volunteer mentor at YEI, where he helps a variety of
-            student and faculty&ndash;founded ventures. He is also an
-            angel investor, scientist, and entrepreneur.
-            Kyle has co&ndash;founded three ventures: Pit Rho, motorsport
-            analytics; PriorSmart, patent litigation analytics
-            (acquired by RPX Corp, Nasdaq:RPXC); and
-            Agrivida, renewable fuels and chemicals.
-            He has a Ph.D. from MIT.
+
+            Margaret Lee is Venture Creation Program (VCP) Coordinator at YEI, overseeing
+            the incubation of early-stage Yale startups throughout the academic year and
+            during the summer. Additionally, she supports the Yale entrepreneurial
+            community and event programming. Margaret holds a B.A. from Yale University, and
+            during her time at Yale, was a marketing intern with YEI, ran an international
+            Model U.N. conference, and spent summers working at startups in Denver and London.
         """,
-        "url": "http://www.linkedin.com/in/kylelawrencejensen/",
-        "avatar": "/static/img/kyle.png",
+        "url": "http://www.linkedin.com/in/margaretklee",
+        "avatar": "https://media.licdn.com/mpr/mpr/wc_200_200/p/1/000/1b9/1bd/08ced1e.jpg",
         "links": [
             {
-                "fa_icon": "fa-github-alt",
-                "url": "http://www.github.com/kljensen"
-            },
-            {
                 "fa_icon": "fa-twitter",
-                "url": "http://www.twitter.com/datakyle"
+                "url": "http://www.twitter.com/yeitweets"
             },
             {
                 "fa_icon": "fa-linkedin",
-                "url": "http://www.linkedin.com/in/kylelawrencejensen/"
+                "url": "http://www.linkedin.com/in/margaretklee"
             },
-        ]
-    },
+
+],
+},
 ]
 
 # A list of upcoming workshops. Again, each is a dictionary.
 #
 workshops = [
     {
-        "title": "Start Something, General",
-        "date": datetime.date(2014, 1, 14),
+        "title": "Start Something: Ideation",
+        "date": datetime.date(2014, 9, 8),
         "google_docs_form_id": "1zOb70KGf3R6X5vozKzX_Md3ZMQt5D452gHLbQv5hytg",
         "description": """
-            All students and faculty welcome. This class will help students
-            prepare for the YEI summer fellowship application. Applications
-            due by 1/10 before midnight. Location: Yale SOM 1/14 5-10pm,
-            Room TBD.
+            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
+            Join us for a workshop walking you through the human-centered
+            design process to generate compelling, viable business opportunities.
+            Space is limited. Register by Sep. 4th by 11:59pm.
         """,
         "show": True,
         "disabled": False,
     },
     {
-        "title": "Start Something, Food",
-        "date": datetime.date(2014, 1, 31),
+        "title": "Start Something: Lean Startup",
+        "date": datetime.date(2014, 9, 12),
         "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
         "description": """
-            Preference given to students interested in food-related products
-            and ventures.  Hosted in collaboration with the Yale Sustainable
-            Food Project.
-            Applications due by 1/26 before midnight. Location: TBD.
+            2-3pm. Have a startup idea and ready to take the first step? Learn the
+            tactics modern entrepreneurs use to launch their ventures: the lean
+            startup methodology, the basics of customer discovery, and the concept
+            of product-market fit.  Space is limited. Register by Sep. 8th at 11:59pm.
         """,
         "show": True,
         "disabled": False,
     },
-    {
+        {
+        "title": "Start Something: Minimum Viable Products",
+        "date": datetime.date(2014, 9, 15),
+        "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
+        "description": """
+            6:30-8pm. Ready to start the building your first product? Come learn what a minimum
+            viable product (MVP) is, how to use it, and what the next steps are. Space
+            is limited. Register by Sep. 11th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+        {
+        "title": "Start Something: Intensive",
+        "date": datetime.date(2014, 9, 19),
+        "google_docs_form_id": "1oNuBtxXTi9IhAh7QCR6gWs5nJ4AcwKimeMRhndSypq0",
+        "description": """
+            12-5:30pm. The Start Something intensive is a special, day-long workshop
+            on the fundamentals of entrepreneurship, encompassing the topics covered
+            in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
+            is for students who want a "crash course" in entrepreneurship!  Space is 
+            limited and by application.  Apply by Sep. 11th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+        {
+        "title": "Start Something: Lean Startup",
+        "date": datetime.date(2014, 9, 23),
+        "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
+        "description": """
+            6:30-8pm. Have a startup idea and ready to take the first step? Learn the
+            tactics modern entrepreneurs use to launch their ventures: the lean
+            startup methodology, the basics of customer discovery, and the concept
+            of product-market fit.  Space is limited. Register by Sep. 18th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+
+        {
         "title": "Start Something, Engineering",
         "date": datetime.date(2014, 2, 28),
         "google_docs_form_id": "1oNuBtxXTi9IhAh7QCR6gWs5nJ4AcwKimeMRhndSypq0",
@@ -105,10 +141,9 @@ workshops = [
             research. Applications due by 2/23 before midnight.
             Location: Yale Engineering CEID, 2/28 12-5:30pm.
         """,
-        "show": True,
-        "disabled": False,
-    },
-    {
+        "show": False,
+        "disabled": True,
+    },{
         "title": "Start Something, Engineering",
         "date": datetime.date(2014, 2, 28),
         "google_docs_form_id": "1OvYqhVtJa4e1AUcoZ5hl_YYpwVOKy37vEgH5LlT6Y6k",

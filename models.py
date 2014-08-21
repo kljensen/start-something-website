@@ -70,26 +70,44 @@ workshops = [
         "date": datetime.date(2014, 9, 8),
         "google_docs_form_id": "1zOb70KGf3R6X5vozKzX_Md3ZMQt5D452gHLbQv5hytg",
         "description": """
+<<<<<<< HEAD
             6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
             Join us for a workshop walking you through the human-centered
             design process to generate compelling, viable business opportunities.
             Space is limited. Register by Sep. 4th by 11:59pm.
+=======
+            All students and faculty welcome. This class will help students
+            prepare for the YEI summer fellowship application. Class is FULL,
+            no longer accepting new applications.
+            Location:
+            <a href="http://map.yale.edu/map/#building:EVANS">
+            Evans Hall</a>, Yale SOM, Room 2230, Tuesday 1/14 5-10pm.
+>>>>>>> 8f6e1e8ed9575852f3347de4296c990a26e5e2f7
         """,
-        "show": True,
-        "disabled": False,
+        "show": False,
+        "disabled": True,
     },
     {
         "title": "Start Something: Lean Startup",
         "date": datetime.date(2014, 9, 12),
         "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
         "description": """
+<<<<<<< HEAD
             2-3pm. Have a startup idea and ready to take the first step? Learn the
             tactics modern entrepreneurs use to launch their ventures: the lean
             startup methodology, the basics of customer discovery, and the concept
             of product-market fit.  Space is limited. Register by Sep. 8th at 11:59pm.
+=======
+            Preference given to students interested in food-related products
+            and ventures.  Hosted in collaboration with the
+            <a href="http://yale.edu/sustainablefood/">
+                Yale Sustainable Food Project</a>.
+            Applications due by 1/29 before midnight. Location:
+            <a href="http://yei.yale.edu/">YEI</a>.
+>>>>>>> 8f6e1e8ed9575852f3347de4296c990a26e5e2f7
         """,
-        "show": True,
-        "disabled": False,
+        "show": False,
+        "disabled": True,
     },
         {
         "title": "Start Something: Minimum Viable Products",
@@ -138,8 +156,10 @@ workshops = [
         "description": """
             Preference given to students in engineering and the
             sciences with an interest in new ventures based on primary
-            research. Applications due by 2/23 before midnight.
-            Location: Yale Engineering CEID, 2/28 12-5:30pm.
+            research. Applications due the evening of 2/24 before midnight.
+            Location:
+            <a href="http://map.yale.edu/map/#search:ceid">
+            Becton Center</a>, CEID, 2/28 12-5:30pm.
         """,
         "show": False,
         "disabled": True,

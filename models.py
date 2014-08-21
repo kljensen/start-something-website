@@ -68,7 +68,7 @@ workshops = [
     {
         "title": "Start Something: Ideation",
         "date": datetime.date(2014, 9, 8),
-        "google_docs_form_id": "1zOb70KGf3R6X5vozKzX_Md3ZMQt5D452gHLbQv5hytg",
+        "google_docs_form_id": "11pqlhBbxOIkyoski4F9FU1g1vWW93XmqJ9Asylb9fwg",
         "description": """
             6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
             Join us for a workshop walking you through the human-centered
@@ -81,7 +81,7 @@ workshops = [
     {
         "title": "Start Something: Lean Startup",
         "date": datetime.date(2014, 9, 12),
-        "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
+        "google_docs_form_id": "1YSskCfOEXDeBl4wmlwIvljQCF6ojD9RaMTakyBXRc78",
         "description": """
             2-3pm. Have a startup idea and ready to take the first step? Learn the
             tactics modern entrepreneurs use to launch their ventures: the lean
@@ -94,7 +94,7 @@ workshops = [
         {
         "title": "Start Something: Minimum Viable Products",
         "date": datetime.date(2014, 9, 15),
-        "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
+        "google_docs_form_id": "1zM_IH0ujg6wP2Tt1ydH0BYq4uqpcR9GMTNwY22oJSvQ",
         "description": """
             6:30-8pm. Ready to start the building your first product? Come learn what a minimum
             viable product (MVP) is, how to use it, and what the next steps are. Space
@@ -106,7 +106,7 @@ workshops = [
         {
         "title": "Start Something: Intensive",
         "date": datetime.date(2014, 9, 19),
-        "google_docs_form_id": "1oNuBtxXTi9IhAh7QCR6gWs5nJ4AcwKimeMRhndSypq0",
+        "google_docs_form_id": "1L1wmYbUEPL6eZ5NK09infbHaoZ8th-d-06nc6u9i2ys",
         "description": """
             12-5:30pm. The Start Something intensive is a special, day-long workshop
             on the fundamentals of entrepreneurship, encompassing the topics covered
@@ -120,7 +120,7 @@ workshops = [
         {
         "title": "Start Something: Lean Startup",
         "date": datetime.date(2014, 9, 23),
-        "google_docs_form_id": "1DLGAIrjI8lbRU1xV9rWlakpNpPTE9erZDUqd9irLlY0",
+        "google_docs_form_id": "1xQ6TbIxHw5LrU7Bt8S4hKfEDe4XIjSqHak44kIzFkN4",
         "description": """
             6:30-8pm. Have a startup idea and ready to take the first step? Learn the
             tactics modern entrepreneurs use to launch their ventures: the lean

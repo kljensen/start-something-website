@@ -35,6 +35,52 @@ instructors = [
             },
         ]
     },
+                {
+         "name": "Ellen Su",
+        "bio": """
+
+            Ellen Su is a co-founder of 109 Design, a medical device company, where she works
+            on hardware, product design, graphic design, and UI/UX. She is a former CEID Design
+            Fellow, and has experience in rapid prototyping and design thinking. As an undergraduate,
+            Ellen co-founded the Yale chapter of Design for America and has been a CEID Design Fellow
+            and YEI Fellow since then.
+        """,
+        "url": "http://www.linkedin.com/pub/ellen-su/38/424/81b/",
+        "avatar": "http://m.c.lnkd.licdn.com/mpr/pub/image-MdKHwBMBBGplBvejy8rBq4Kx0jw2ENsHMdrvb_0v0LnTZCO5MdKv23dB091UZNN63GA-/ellen-su.jpg",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": "http://www.linkedin.com/pub/ellen-su/38/424/81b/"
+            },
+                ],
+    },
+        {
+         "name": "Levi DeLuke",
+        "bio": """
+
+            Levi DeLuke is a co-founder of 109 Design, a biomedical device company that was a
+            member of the 2014 YEI Summer Fellowship. He graduated from Yale in 2014 with a degree
+            in Mechanical Engineering and is interested in using technology to improve healthcare.
+            Levi is excited to remain in New Haven to launch the company's first product, which aims
+            to improve the treatment of scoliosis.
+        """,
+        "url": "",
+        "avatar": "",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": ""
+            },
+                ],
+    },
     {
          "name": "Margaret Lee",
         "bio": """
@@ -57,9 +103,55 @@ instructors = [
                 "fa_icon": "fa-linkedin",
                 "url": "http://www.linkedin.com/in/margaretklee"
             },
+                ],
+    },
+   {
+         "name": "Olivia Pavco-Giaccia",
+        "bio": """
+            Olivia Pavco-Giaccia is junior at Yale University, majoring in cognitive science.
+            Through YEI's 2013 Summer Fellowship, Olivia launched LabCandy, a social enterprise
+            whose mission is to encourage young girls' interest in STEM.  Soon
+            to complete a successful Kickstarter campaign, Olivia is readying to bring to market
+            LabCandy's brightly colored lab coats, kid-sized sparkly lab goggles, and science
+            adventure storybooks.
+        """,
+        "url": "",
+        "avatar": "",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": ""
+            },
+                ],
+    },     
+    {
+         "name": "Starling Childs",
+        "bio": """
+            Starling Childs is a recent graduate of the MEM program at the Forestry School. Prior
+            to his graduate studies at Yale, Star spent several years working in the urban design
+            and planning industry and holds a bachelors degree from Cornell University in Landscape
+            Architecture. Star is currently working on a YEI based venture called Citiesense, which
+            provides web-based economic development and planning tools for urban commercial real
+            estate markets.
+        """,
+        "url": "http://www.linkedin.com/pub/star-childs/3/560/393/",
+        "avatar": "http://m.c.lnkd.licdn.com/mpr/pub/image--HH9eDWWb4shILkBQVfkvIgQdnh-zLFPGHVPEDqmdUeccc10-HHPkGJWdmWwzzIf9U2v/star-childs.jpg",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/star_III"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": "http://www.linkedin.com/pub/star-childs/3/560/393/"
+            },
+                ],
+    },
 
-],
-},
 ]
 
 # A list of upcoming workshops. Again, each is a dictionary.
@@ -99,6 +191,19 @@ workshops = [
             6:30-8pm. Ready to start the building your first product? Come learn what a minimum
             viable product (MVP) is, how to use it, and what the next steps are. Space
             is limited. Register by Sep. 11th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+        {
+        "title": "Start Something: Ideation",
+        "date": datetime.date(2014, 9, 17),
+        "google_docs_form_id": "1kel9Mk8_jl6pb-isFG1rtqdccpFDD_7U_HtavmAMhB0",
+        "description": """
+            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
+            Join us for a workshop walking you through the human-centered
+            design process to generate compelling, viable business opportunities.
+            Space is limited. Register by Sep. 12th by 11:59pm.
         """,
         "show": True,
         "disabled": False,

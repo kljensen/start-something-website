@@ -157,32 +157,6 @@ instructors = [
 # A list of upcoming workshops. Again, each is a dictionary.
 #
 workshops = [
-    {
-        "title": "Start Something: Ideation",
-        "date": datetime.date(2014, 9, 8),
-        "google_docs_form_id": "11pqlhBbxOIkyoski4F9FU1g1vWW93XmqJ9Asylb9fwg",
-        "description": """
-            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
-            Join us for a workshop walking you through the human-centered
-            design process to generate compelling, viable business opportunities.
-            Space is limited. Register by Sep. 4th by 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-    {
-        "title": "Start Something: Lean Startup",
-        "date": datetime.date(2014, 9, 12),
-        "google_docs_form_id": "1YSskCfOEXDeBl4wmlwIvljQCF6ojD9RaMTakyBXRc78",
-        "description": """
-            2-3pm. Have a startup idea and ready to take the first step? Learn the
-            tactics modern entrepreneurs use to launch their ventures: the lean
-            startup methodology, the basics of customer discovery, and the concept
-            of product-market fit.  Space is limited. Register by Sep. 8th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
         {
         "title": "Start Something: Minimum Viable Products",
         "date": datetime.date(2014, 9, 15),
@@ -213,10 +187,11 @@ workshops = [
         "date": datetime.date(2014, 9, 19),
         "google_docs_form_id": "1L1wmYbUEPL6eZ5NK09infbHaoZ8th-d-06nc6u9i2ys",
         "description": """
-            12-5:30pm. The Start Something intensive is a special, day-long workshop
+            12-5:30pm. Co-hosted with the School of Management's Entrepreneurship Club,
+            this Start Something Intensive is a special, day-long workshop
             on the fundamentals of entrepreneurship, encompassing the topics covered
             in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
-            is for students who want a "crash course" in entrepreneurship!  Space is 
+            is for students who want a "crash course" in entrepreneurship!  Space is
             limited and by application.  Apply by Sep. 11th at 11:59pm.
         """,
         "show": True,

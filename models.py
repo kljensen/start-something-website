@@ -216,7 +216,7 @@ workshops = [
         {
         "title": "Start Something: Minimum Viable Products",
         "date": datetime.date(2014, 9, 30),
-        "google_docs_form_id": "1GURJ64-ozOJUAU_ydadvFSNly9IccKx1f0ty-IGXFBk",
+        "google_docs_form_id": "1LQw8XiDpwdOBsOWmKHebEQyVu9-2GUPBFx576WPTGyI",
         "description": """
             8-9:30pm. Ready to start the building your first product? Come learn what a minimum
             viable product (MVP) is, how to use it, and what the next steps are. Space

@@ -58,6 +58,34 @@ instructors = [
             },
                 ],
     },
+    {
+         "name": "Jacob Sandry",
+        "bio": """
+
+            Jacob is a super-Junior in Yale College majoring in American Studies.
+            While he has extensive experience with non-profits both in the U.S. and
+            abroad, he has most recently focused on social enterprises and mission-
+            driven ventures. He was a fellow at Mosaic, a solar energy crowd-investing
+            venture in Oakland, CA where he developed a platform to enable communities
+            to organize solar projects. Last summer, as a Yale Entrepreneurial Institute
+            summer fellow, he co-founded SÖL Hydration, an innovative organic sports
+            drink company. With three delicious flavors, and more on the way, he hopes
+            to hydrate you soon, naturally.
+
+        """,
+        "url": "https://www.linkedin.com/profile/view?id=172984274",
+        "avatar": "https://media.licdn.com/mpr/mpr/wc_200_200/p/8/000/276/048/276b63f.jpg",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": "https://www.linkedin.com/profile/view?id=172984274"
+            },
+                ],
+    },
         {
          "name": "Levi DeLuke",
         "bio": """
@@ -93,7 +121,7 @@ instructors = [
             Model U.N. conference, and spent summers working at startups in Denver and London.
         """,
         "url": "http://www.linkedin.com/in/margaretklee",
-        "avatar": "https://media.licdn.com/mpr/mpr/wc_200_200/p/1/000/1b9/1bd/08ced1e.jpg",
+        "avatar": "http://yei.yale.edu/sites/default/files/resize/imce/MargaretLee-120x170.jpg",
         "links": [
             {
                 "fa_icon": "fa-twitter",
@@ -127,7 +155,7 @@ instructors = [
                 "url": ""
             },
                 ],
-    },     
+    },
     {
          "name": "Starling Childs",
         "bio": """
@@ -158,31 +186,6 @@ instructors = [
 #
 workshops = [
         {
-        "title": "Start Something: Minimum Viable Products",
-        "date": datetime.date(2014, 9, 15),
-        "google_docs_form_id": "1zM_IH0ujg6wP2Tt1ydH0BYq4uqpcR9GMTNwY22oJSvQ",
-        "description": """
-            6:30-8pm. Ready to start the building your first product? Come learn what a minimum
-            viable product (MVP) is, how to use it, and what the next steps are. Space
-            is limited. Register by Sep. 11th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
-        "title": "Start Something: Ideation",
-        "date": datetime.date(2014, 9, 17),
-        "google_docs_form_id": "1kel9Mk8_jl6pb-isFG1rtqdccpFDD_7U_HtavmAMhB0",
-        "description": """
-            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
-            Join us for a workshop walking you through the human-centered
-            design process to generate compelling, viable business opportunities.
-            Space is limited. Register by Sep. 12th by 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
         "title": "Start Something: Intensive",
         "date": datetime.date(2014, 9, 19),
         "google_docs_form_id": "1L1wmYbUEPL6eZ5NK09infbHaoZ8th-d-06nc6u9i2ys",
@@ -210,7 +213,31 @@ workshops = [
         "show": True,
         "disabled": False,
     },
-
+        {
+        "title": "Start Something: Minimum Viable Products",
+        "date": datetime.date(2014, 9, 30),
+        "google_docs_form_id": "1GURJ64-ozOJUAU_ydadvFSNly9IccKx1f0ty-IGXFBk",
+        "description": """
+            8-9:30pm. Ready to start the building your first product? Come learn what a minimum
+            viable product (MVP) is, how to use it, and what the next steps are. Space
+            is limited. Register by Sep. 26th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+        {
+        "title": "Start Something: Lean Startup",
+        "date": datetime.date(2014, 10, 10),
+        "google_docs_form_id": "1NnIediun4MWMBluWLTCwORO6TMYqraWrBVtNLCJ6iz8",
+        "description": """
+            2-3:30pm. Interested in entrepreneurship but don't have a startup idea yet?
+            Join us for a workshop walking you through the human-centered
+            design process to generate compelling, viable business opportunities.
+            Space is limited. Register by Oct. 6th by 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
         {
         "title": "Start Something, Engineering",
         "date": datetime.date(2014, 2, 28),

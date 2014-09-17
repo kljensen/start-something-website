@@ -96,8 +96,8 @@ instructors = [
             Levi is excited to remain in New Haven to launch the company's first product, which aims
             to improve the treatment of scoliosis.
         """,
-        "url": "",
-        "avatar": "",
+        "url": "https://www.linkedin.com/pub/levi-deluke/54/606/b40",
+        "avatar": "https://media.licdn.com/mpr/mpr/wc_200_200/p/1/005/04a/389/1b08dcb.jpg",
         "links": [
             {
                 "fa_icon": "fa-twitter",
@@ -105,7 +105,7 @@ instructors = [
             },
             {
                 "fa_icon": "fa-linkedin",
-                "url": ""
+                "url": "https://www.linkedin.com/pub/levi-deluke/54/606/b40"
             },
                 ],
     },
@@ -144,15 +144,15 @@ instructors = [
             adventure storybooks.
         """,
         "url": "",
-        "avatar": "",
+        "avatar": "http://yei.yale.edu/sites/default/files/imce/oliviapavcogiaccia.png",
         "links": [
             {
                 "fa_icon": "fa-twitter",
-                "url": "http://www.twitter.com/yeitweets"
+                "url": "http://www.twitter.com/LabCandyLLC"
             },
             {
                 "fa_icon": "fa-linkedin",
-                "url": ""
+                "url": "https://www.linkedin.com/pub/olivia-pavco-giaccia/"
             },
                 ],
     },

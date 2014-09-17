@@ -68,7 +68,7 @@ instructors = [
             driven ventures. He was a fellow at Mosaic, a solar energy crowd-investing
             venture in Oakland, CA where he developed a platform to enable communities
             to organize solar projects. Last summer, as a Yale Entrepreneurial Institute
-            summer fellow, he co-founded SÖL Hydration, an innovative organic sports
+            summer fellow, he co-founded SOL Hydration, an innovative organic sports
             drink company. With three delicious flavors, and more on the way, he hopes
             to hydrate you soon, naturally.
 

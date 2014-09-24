@@ -35,6 +35,53 @@ instructors = [
             },
         ]
     },
+    {
+         "name": "Margaret Lee",
+        "bio": """
+
+            Margaret Lee is Venture Creation Program (VCP) Coordinator at YEI, overseeing
+            the incubation of early-stage Yale startups throughout the academic year and
+            during the summer. Additionally, she supports the Yale entrepreneurial
+            community and event programming. Margaret holds a B.A. from Yale University, and
+            during her time at Yale, was a marketing intern with YEI, ran an international
+            Model U.N. conference, and spent summers working at startups in Denver and London.
+        """,
+        "url": "http://www.linkedin.com/in/margaretklee",
+        "avatar": "http://yei.yale.edu/sites/default/files/resize/imce/MargaretLee-120x170.jpg",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": "http://www.linkedin.com/in/margaretklee"
+            },
+                ],
+    },
+                {
+         "name": "David Cruz",
+        "bio": """
+
+            David is a co-founder of Trinity Mobile Networks and a recent Yale graduate.
+            He has been involved with YEI through the Summer Fellowship in 2014 and the
+            Tech Bootcamp in 2013. David is excited use his technical background to improve
+            connectivity and security by creating a cost-effective mesh network through
+            his own venture.
+        """,
+        "url": "https://www.linkedin.com/profile/view?id=343293316",
+        "avatar": "http://yei.yale.edu/sites/default/files/imce/davidcruz.png",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": "https://www.linkedin.com/profile/view?id=343293316"
+            },
+                ],
+    },
                 {
          "name": "Ellen Su",
         "bio": """
@@ -109,30 +156,7 @@ instructors = [
             },
                 ],
     },
-    {
-         "name": "Margaret Lee",
-        "bio": """
-
-            Margaret Lee is Venture Creation Program (VCP) Coordinator at YEI, overseeing
-            the incubation of early-stage Yale startups throughout the academic year and
-            during the summer. Additionally, she supports the Yale entrepreneurial
-            community and event programming. Margaret holds a B.A. from Yale University, and
-            during her time at Yale, was a marketing intern with YEI, ran an international
-            Model U.N. conference, and spent summers working at startups in Denver and London.
-        """,
-        "url": "http://www.linkedin.com/in/margaretklee",
-        "avatar": "http://yei.yale.edu/sites/default/files/resize/imce/MargaretLee-120x170.jpg",
-        "links": [
-            {
-                "fa_icon": "fa-twitter",
-                "url": "http://www.twitter.com/yeitweets"
-            },
-            {
-                "fa_icon": "fa-linkedin",
-                "url": "http://www.linkedin.com/in/margaretklee"
-            },
-                ],
-    },
+    
    {
          "name": "Olivia Pavco-Giaccia",
         "bio": """
@@ -186,34 +210,6 @@ instructors = [
 #
 workshops = [
         {
-        "title": "Start Something: Intensive",
-        "date": datetime.date(2014, 9, 19),
-        "google_docs_form_id": "1L1wmYbUEPL6eZ5NK09infbHaoZ8th-d-06nc6u9i2ys",
-        "description": """
-            12-5:30pm. Co-hosted with the School of Management's Entrepreneurship Club,
-            this Start Something Intensive is a special, day-long workshop
-            on the fundamentals of entrepreneurship, encompassing the topics covered
-            in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
-            is for students who want a "crash course" in entrepreneurship!  Space is
-            limited and by application.  Apply by Sep. 11th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
-        "title": "Start Something: Lean Startup",
-        "date": datetime.date(2014, 9, 23),
-        "google_docs_form_id": "1xQ6TbIxHw5LrU7Bt8S4hKfEDe4XIjSqHak44kIzFkN4",
-        "description": """
-            6:30-8pm. Have a startup idea and ready to take the first step? Learn the
-            tactics modern entrepreneurs use to launch their ventures: the lean
-            startup methodology, the basics of customer discovery, and the concept
-            of product-market fit.  Space is limited. Register by Sep. 18th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
         "title": "Start Something: Minimum Viable Products",
         "date": datetime.date(2014, 9, 30),
         "google_docs_form_id": "1LQw8XiDpwdOBsOWmKHebEQyVu9-2GUPBFx576WPTGyI",
@@ -221,6 +217,21 @@ workshops = [
             8-9:30pm. Ready to start the building your first product? Come learn what a minimum
             viable product (MVP) is, how to use it, and what the next steps are. Space
             is limited. Register by Sep. 26th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+    {
+        "title": "Start Something @ the CEID: Lean Startup & MVPs",
+        "date": datetime.date(2014, 9, 23),
+        "google_docs_form_id": "1maj8X1xj4M0aHTlUs_bulJ_bGrEaWpNqUplQAUkV0M4",
+        "description": """
+            6:30-8pm. Ready to take the first step in entrepreneurship? Learn the
+            tactics modern entrepreneurs use to launch their ventures: the lean
+            startup methodology, the basics of customer discovery, the concept
+            of product-market fit, and Minimum Viable Products.  Cohosted by the
+            Center for Engineering Innovation & Design. Space is limited.
+            Register by October 5th at 11:59pm.
         """,
         "show": True,
         "disabled": False,
@@ -234,6 +245,47 @@ workshops = [
             Join us for a workshop walking you through the human-centered
             design process to generate compelling, viable business opportunities.
             Space is limited. Register by Oct. 6th by 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+
+        {
+        "title": "Start Something: Ideation",
+        "date": datetime.date(2014, 10, 13),
+        "google_docs_form_id": "1WEeMGfWWcRIYU4PLWbDoGXIVFjZxpgdL1g6xDfU8NJo",
+        "description": """
+            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
+           Join us for a workshop walking you through the human-centered
+           design process to generate compelling, viable business opportunities.
+            Space is limited. Register by Oct. 9th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+    {
+        "title": "Start Something: Minimum Viable Products",
+        "date": datetime.date(2014, 10, 15),
+        "google_docs_form_id": "1VrABf7hC2EJXyoIpkRvgnJMpJeGSxgjgM0vDMZ6rqjw",
+        "description": """
+            6:30-8pm. Ready to start the building your first product? Come learn what a minimum
+            viable product (MVP) is, how to use it, and what the next steps are. Space
+            is limited. Register by Oct. 12th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+    {
+        "title": "Start Something @ CBEY: Intensive",
+        "date": datetime.date(2014, 11, 7),
+        "google_docs_form_id": "1ntWosCQ1kvRcsWo0SoEjn-bN8Y_KoRC0AmqLo-MbAWo",
+        "description": """
+            12-4pm. Co-hosted with the Center for Business and the Environment at Yale,
+            this Start Something Intensive is a special, day-long workshop
+            on the fundamentals of entrepreneurship, encompassing the topics covered
+            in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
+            is for students who want a "crash course" in entrepreneurship!  Space is
+            limited and by application.  Apply by Nov. 2nd at 11:59pm.
         """,
         "show": True,
         "disabled": False,

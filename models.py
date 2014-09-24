@@ -223,7 +223,7 @@ workshops = [
     },
     {
         "title": "Start Something @ the CEID: Lean Startup & MVPs",
-        "date": datetime.date(2014, 9, 23),
+        "date": datetime.date(2014, 10, 8),
         "google_docs_form_id": "1maj8X1xj4M0aHTlUs_bulJ_bGrEaWpNqUplQAUkV0M4",
         "description": """
             6:30-8pm. Ready to take the first step in entrepreneurship? Learn the

@@ -69,7 +69,7 @@ instructors = [
             connectivity and security by creating a cost-effective mesh network through
             his own venture.
         """,
-        "url": "https://www.linkedin.com/profile/view?id=343293316",
+        "url": "https://www.linkedin.com/in/davidmcruz",
         "avatar": "http://yei.yale.edu/sites/default/files/imce/davidcruz.png",
         "links": [
             {
@@ -78,7 +78,7 @@ instructors = [
             },
             {
                 "fa_icon": "fa-linkedin",
-                "url": "https://www.linkedin.com/profile/view?id=343293316"
+                "url": "https://www.linkedin.com/in/davidmcruz"
             },
                 ],
     },

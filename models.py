@@ -82,6 +82,28 @@ instructors = [
             },
                 ],
     },
+                    {
+         "name": "David McPeek",
+        "bio": """
+
+            David is a rising Junior at Yale, currently working as a web developer in
+            digital marketing. He has been involved in YEI through the 2014 Tech Bootcamp
+            and is fascinated by Lean Startup methodology for its extensibility to all
+            areas of life.
+        """,
+        "url": "www.linkedin.com/pub/david-mcpeek/98/4b0/b59/",
+        "avatar": "http://m.c.lnkd.licdn.com/mpr/pub/image-PyyhxnbTQg9OGHcVvo_7PCqcarm9IsR6OAywXUgCav2yQICMPyywX2VTapEpQsKIIgQR/david-mcpeek.jpg",
+        "links": [
+            {
+                "fa_icon": "fa-twitter",
+                "url": "http://www.twitter.com/yeitweets"
+            },
+            {
+                "fa_icon": "fa-linkedin",
+                "url": "www.linkedin.com/pub/david-mcpeek/98/4b0/b59/"
+            },
+                ],
+    },
                 {
          "name": "Ellen Su",
         "bio": """
@@ -210,47 +232,6 @@ instructors = [
 #
 workshops = [
         {
-        "title": "Start Something: Minimum Viable Products",
-        "date": datetime.date(2014, 9, 30),
-        "google_docs_form_id": "1LQw8XiDpwdOBsOWmKHebEQyVu9-2GUPBFx576WPTGyI",
-        "description": """
-            8-9:30pm. Ready to start the building your first product? Come learn what a minimum
-            viable product (MVP) is, how to use it, and what the next steps are. Space
-            is limited. Register by Sep. 26th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-    {
-        "title": "Start Something @ the CEID: Lean Startup & MVPs",
-        "date": datetime.date(2014, 10, 8),
-        "google_docs_form_id": "1maj8X1xj4M0aHTlUs_bulJ_bGrEaWpNqUplQAUkV0M4",
-        "description": """
-            6:30-8pm. Ready to take the first step in entrepreneurship? Learn the
-            tactics modern entrepreneurs use to launch their ventures: the lean
-            startup methodology, the basics of customer discovery, the concept
-            of product-market fit, and Minimum Viable Products.  Cohosted by the
-            Center for Engineering Innovation & Design. Space is limited.
-            Register by October 5th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
-        "title": "Start Something: Lean Startup",
-        "date": datetime.date(2014, 10, 10),
-        "google_docs_form_id": "1NnIediun4MWMBluWLTCwORO6TMYqraWrBVtNLCJ6iz8",
-        "description": """
-            2-3:30pm. Interested in entrepreneurship but don't have a startup idea yet?
-            Join us for a workshop walking you through the human-centered
-            design process to generate compelling, viable business opportunities.
-            Space is limited. Register by Oct. 6th by 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-
-        {
         "title": "Start Something: Ideation",
         "date": datetime.date(2014, 10, 13),
         "google_docs_form_id": "1WEeMGfWWcRIYU4PLWbDoGXIVFjZxpgdL1g6xDfU8NJo",
@@ -275,6 +256,34 @@ workshops = [
         "show": True,
         "disabled": False,
     },
+            {
+        "title": "How to Start a Mission-Driven Venture at Yale",
+        "date": datetime.date(2014, 10, 20),
+        "google_docs_form_id": "1vNLJ6q678zowNHKIbY9yw7l991tW269Ous85WQ62zxI",
+        "description": """
+            8-9:30pm. What does it mean to start a mission-driven or "social" venture?
+            Join Jacob Sandry, co-founder of SOL Hydration, for a workshop on navigating
+            the social startup scene.  Learn the differences between a social and traditional
+            venture, how lean startup concepts apply, and what you need to know to get
+            started. Space is limited. Register by 11:59pm on Oct 16th.
+
+        """,
+        "show": True,
+        "disabled": False,
+    },
+    {
+        "title": "Make Your Startup's First Promo Video",
+        "date": datetime.date(2014, 10, 27),
+        "google_docs_form_id": "14IdnU1KffguKh4NiaK5WUrX7mzMrqZaZtpcRtCEV7S4",
+        "description": """
+            7-8:30pm. Getting ready to spread the word about your startup, or even launch
+            a Kickstarter campaign?  Aily Zhang walks you through the process of making
+            a useful, beautiful promotional video for your startup - no previous experience
+            necessary! Space is limited. Register by October 5th at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
     {
         "title": "Start Something @ CBEY: Intensive",
         "date": datetime.date(2014, 11, 7),
@@ -289,6 +298,19 @@ workshops = [
         """,
         "show": True,
         "disabled": False,
+    },
+        {
+        "title": "Start Something: Lean Startup",
+        "date": datetime.date(2014, 10, 10),
+        "google_docs_form_id": "1NnIediun4MWMBluWLTCwORO6TMYqraWrBVtNLCJ6iz8",
+        "description": """
+            2-3:30pm. Interested in entrepreneurship but don't have a startup idea yet?
+            Join us for a workshop walking you through the human-centered
+            design process to generate compelling, viable business opportunities.
+            Space is limited. Register by Oct. 6th by 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
     },
         {
         "title": "Start Something, Engineering",

@@ -231,31 +231,7 @@ instructors = [
 # A list of upcoming workshops. Again, each is a dictionary.
 #
 workshops = [
-        {
-        "title": "Start Something: Ideation",
-        "date": datetime.date(2014, 10, 13),
-        "google_docs_form_id": "1WEeMGfWWcRIYU4PLWbDoGXIVFjZxpgdL1g6xDfU8NJo",
-        "description": """
-            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
-           Join us for a workshop walking you through the human-centered
-           design process to generate compelling, viable business opportunities.
-            Space is limited. Register by Oct. 9th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-    {
-        "title": "Start Something: Minimum Viable Products",
-        "date": datetime.date(2014, 10, 15),
-        "google_docs_form_id": "1VrABf7hC2EJXyoIpkRvgnJMpJeGSxgjgM0vDMZ6rqjw",
-        "description": """
-            6:30-8pm. Ready to start the building your first product? Come learn what a minimum
-            viable product (MVP) is, how to use it, and what the next steps are. Space
-            is limited. Register by Oct. 12th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
+        
             {
         "title": "How to Start a Mission-Driven Venture at Yale",
         "date": datetime.date(2014, 10, 20),
@@ -265,7 +241,7 @@ workshops = [
             Join Jacob Sandry, co-founder of SOL Hydration, for a workshop on navigating
             the social startup scene.  Learn the differences between a social and traditional
             venture, how lean startup concepts apply, and what you need to know to get
-            started. Space is limited. Register by 11:59pm on Oct 16th.
+            started. Space is limited. Register by 11:59pm on Oct 17th.
 
         """,
         "show": True,
@@ -279,7 +255,7 @@ workshops = [
             7-8:30pm. Getting ready to spread the word about your startup, or even launch
             a Kickstarter campaign?  Aily Zhang walks you through the process of making
             a useful, beautiful promotional video for your startup - no previous experience
-            necessary! Space is limited. Register by October 5th at 11:59pm.
+            necessary! Space is limited. Register by October 23rd at 11:59pm.
         """,
         "show": True,
         "disabled": False,
@@ -298,6 +274,31 @@ workshops = [
         """,
         "show": True,
         "disabled": False,
+    },
+    {
+        "title": "Start Something: Ideation",
+        "date": datetime.date(2014, 10, 13),
+        "google_docs_form_id": "1WEeMGfWWcRIYU4PLWbDoGXIVFjZxpgdL1g6xDfU8NJo",
+        "description": """
+            6:30-8pm. Interested in entrepreneurship but don't have a startup idea yet?
+           Join us for a workshop walking you through the human-centered
+           design process to generate compelling, viable business opportunities.
+            Space is limited. Register by Oct. 9th at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
+    },
+    {
+        "title": "Start Something: Minimum Viable Products",
+        "date": datetime.date(2014, 10, 15),
+        "google_docs_form_id": "1VrABf7hC2EJXyoIpkRvgnJMpJeGSxgjgM0vDMZ6rqjw",
+        "description": """
+            6:30-8pm. Ready to start the building your first product? Come learn what a minimum
+            viable product (MVP) is, how to use it, and what the next steps are. Space
+            is limited. Register by Oct. 12th at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
     },
         {
         "title": "Start Something: Lean Startup",

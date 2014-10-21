@@ -232,21 +232,6 @@ instructors = [
 #
 workshops = [
         
-            {
-        "title": "How to Start a Mission-Driven Venture at Yale",
-        "date": datetime.date(2014, 10, 20),
-        "google_docs_form_id": "1vNLJ6q678zowNHKIbY9yw7l991tW269Ous85WQ62zxI",
-        "description": """
-            8-9:30pm. What does it mean to start a mission-driven or "social" venture?
-            Join Jacob Sandry, co-founder of SOL Hydration, for a workshop on navigating
-            the social startup scene.  Learn the differences between a social and traditional
-            venture, how lean startup concepts apply, and what you need to know to get
-            started. Space is limited. Register by 11:59pm on Oct 17th.
-
-        """,
-        "show": True,
-        "disabled": False,
-    },
     {
         "title": "Make Your Startup's First Promo Video",
         "date": datetime.date(2014, 10, 27),
@@ -265,7 +250,7 @@ workshops = [
         "date": datetime.date(2014, 11, 7),
         "google_docs_form_id": "1ntWosCQ1kvRcsWo0SoEjn-bN8Y_KoRC0AmqLo-MbAWo",
         "description": """
-            12-4pm. Co-hosted with the Center for Business and the Environment at Yale,
+            1-5pm. Co-hosted with the Center for Business and the Environment at Yale,
             this Start Something Intensive is a special, day-long workshop
             on the fundamentals of entrepreneurship, encompassing the topics covered
             in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
@@ -274,6 +259,35 @@ workshops = [
         """,
         "show": True,
         "disabled": False,
+    },
+        {
+        "title": "Start Something: Intensive",
+        "date": datetime.date(2014, 12, 6),
+        "google_docs_form_id": "1CIqBUgEa1YEsRHs-3gjSmDdEd4TxpPgTAoPGdmh1Hn0",
+        "description": """
+            2:30-6:30pm. Start Something: Intensive is a special, day-long workshop
+            on the fundamentals of entrepreneurship, encompassing the topics covered
+            in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
+            is for students who want a "crash course" in entrepreneurship!  Space is
+            limited and by application.  Apply by Dec. 1 at 11:59pm.
+        """,
+        "show": True,
+        "disabled": False,
+    },
+                {
+        "title": "How to Start a Mission-Driven Venture at Yale",
+        "date": datetime.date(2014, 10, 20),
+        "google_docs_form_id": "1vNLJ6q678zowNHKIbY9yw7l991tW269Ous85WQ62zxI",
+        "description": """
+            8-9:30pm. What does it mean to start a mission-driven or "social" venture?
+            Join Jacob Sandry, co-founder of SOL Hydration, for a workshop on navigating
+            the social startup scene.  Learn the differences between a social and traditional
+            venture, how lean startup concepts apply, and what you need to know to get
+            started. Space is limited. Register by 11:59pm on Oct 17th.
+
+        """,
+        "show": False,
+        "disabled": True,
     },
     {
         "title": "Start Something: Ideation",

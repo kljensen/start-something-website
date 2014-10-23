@@ -250,7 +250,7 @@ workshops = [
         "date": datetime.date(2014, 11, 7),
         "google_docs_form_id": "1ntWosCQ1kvRcsWo0SoEjn-bN8Y_KoRC0AmqLo-MbAWo",
         "description": """
-            1-5pm. Co-hosted with the Center for Business and the Environment at Yale,
+            12-4pm. Co-hosted with the Center for Business and the Environment at Yale,
             this Start Something Intensive is a special, day-long workshop
             on the fundamentals of entrepreneurship, encompassing the topics covered
             in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop

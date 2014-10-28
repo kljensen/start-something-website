@@ -238,9 +238,9 @@ workshops = [
         "google_docs_form_id": "1O5KczG7bC6W8LnddPl1n2ZT_jjs5qst_eZxey_XGUPw",
         "description": """
             2-3pm. Learn how to make your photos look stunning with Photoshop!
-            This hour-long course, co-hosted with the Bass Media Techs, will cover simple
-            tricks as well as more in-depth
-            techniques to correct color, brightness, sharpness and other common issues
+            This hour-long course, co-hosted with the Student Technology Collaborative,
+            will cover simple tricks in the photo-editing software Photoshop,
+            as well as more in-depth techniques to correct color, brightness, sharpness and other common issues
             in your photos, as well as how to reproduce popular filters like sepia,
             vignette and soft focus. Suitable for beginner to intermediate photographers.
             Space is limited. Register by October 30th at 11:59pm.

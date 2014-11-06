@@ -231,52 +231,7 @@ instructors = [
 # A list of upcoming workshops. Again, each is a dictionary.
 #
 workshops = [
-        
     {
-        "title": "Taking and Editing Great Photos (Entrepreneurial Design Series)",
-        "date": datetime.date(2014, 11, 1),
-        "google_docs_form_id": "1O5KczG7bC6W8LnddPl1n2ZT_jjs5qst_eZxey_XGUPw",
-        "description": """
-            2-3pm. Learn how to make your photos look stunning with Photoshop!
-            This hour-long course, co-hosted with the Student Technology Collaborative,
-            will cover simple tricks in the photo-editing software Photoshop,
-            as well as more in-depth techniques to correct color, brightness, sharpness and other common issues
-            in your photos, as well as how to reproduce popular filters like sepia,
-            vignette and soft focus. Suitable for beginner to intermediate photographers.
-            Space is limited. Register by October 30th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
-        "title": "How to Design Your Startup's Logo (Entrepreneurial Design Series)",
-        "date": datetime.date(2014, 11, 3),
-        "google_docs_form_id": "1-otknSV31pluwPS3DWeQqwW4O0ST5cO_iwDAyDOBPJI",
-        "description": """
-            7-8pm. What makes a great logo and how can you create one for your start-up?
-            In this workshop co-hosted by the Bass Media Techs, learn all about the
-            principles of logo design and how to navigate Adobe Illustrator - no previous
-            experience necessary! Space is limited. Register by October 31st at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-    {
-        "title": "Start Something @ CBEY: Intensive",
-        "date": datetime.date(2014, 11, 7),
-        "google_docs_form_id": "1ntWosCQ1kvRcsWo0SoEjn-bN8Y_KoRC0AmqLo-MbAWo",
-        "description": """
-            12-4pm. Co-hosted with the Center for Business and the Environment at Yale,
-            this Start Something Intensive is a special, day-long workshop
-            on the fundamentals of entrepreneurship, encompassing the topics covered
-            in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
-            is for students who want a "crash course" in entrepreneurship!  Space is
-            limited and by application.  Apply by Nov. 2nd at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-            {
         "title": "How to Hire Your First Employee",
         "date": datetime.date(2014, 11, 11),
         "google_docs_form_id": "1BF-Ns6gfiYkknSAozmW6PPyakJO3HaoAiMawSlUqWzw",
@@ -310,11 +265,12 @@ workshops = [
         "disabled": False,
     },
         {
-        "title": "Start Something: Intensive",
+        "title": "Start Something @ CBEY: Intensive",
         "date": datetime.date(2014, 12, 6),
         "google_docs_form_id": "1CIqBUgEa1YEsRHs-3gjSmDdEd4TxpPgTAoPGdmh1Hn0",
         "description": """
-            2:30-6:30pm. Start Something: Intensive is a special, day-long workshop
+            2:30-6:30pm. Co-hosted with the Center for Business and the Environment at Yale,
+            this Start Something: Intensive is a special, day-long workshop
             on the fundamentals of entrepreneurship, encompassing the topics covered
             in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
             is for students who want a "crash course" in entrepreneurship!  Space is
@@ -322,6 +278,50 @@ workshops = [
         """,
         "show": True,
         "disabled": False,
+    },
+        {
+        "title": "Taking and Editing Great Photos (Entrepreneurial Design Series)",
+        "date": datetime.date(2014, 11, 1),
+        "google_docs_form_id": "1O5KczG7bC6W8LnddPl1n2ZT_jjs5qst_eZxey_XGUPw",
+        "description": """
+            2-3pm. Learn how to make your photos look stunning with Photoshop!
+            This hour-long course, co-hosted with the Student Technology Collaborative,
+            will cover simple tricks in the photo-editing software Photoshop,
+            as well as more in-depth techniques to correct color, brightness, sharpness and other common issues
+            in your photos, as well as how to reproduce popular filters like sepia,
+            vignette and soft focus. Suitable for beginner to intermediate photographers.
+            Space is limited. Register by October 30th at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
+    },
+        {
+        "title": "How to Design Your Startup's Logo (Entrepreneurial Design Series)",
+        "date": datetime.date(2014, 11, 3),
+        "google_docs_form_id": "1-otknSV31pluwPS3DWeQqwW4O0ST5cO_iwDAyDOBPJI",
+        "description": """
+            7-8pm. What makes a great logo and how can you create one for your start-up?
+            In this workshop co-hosted by the Bass Media Techs, learn all about the
+            principles of logo design and how to navigate Adobe Illustrator - no previous
+            experience necessary! Space is limited. Register by October 31st at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
+    },
+    {
+        "title": "Start Something @ CBEY: Intensive",
+        "date": datetime.date(2014, 11, 7),
+        "google_docs_form_id": "1ntWosCQ1kvRcsWo0SoEjn-bN8Y_KoRC0AmqLo-MbAWo",
+        "description": """
+            12-4pm. Co-hosted with the Center for Business and the Environment at Yale,
+            this Start Something Intensive is a special, day-long workshop
+            on the fundamentals of entrepreneurship, encompassing the topics covered
+            in "Ideation," "Lean Startup" and "Minimum Viable Products."  This workshop
+            is for students who want a "crash course" in entrepreneurship!  Space is
+            limited and by application.  Apply by Nov. 2nd at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
     },
                 {
         "title": "How to Start a Mission-Driven Venture at Yale",

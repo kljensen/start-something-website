@@ -231,39 +231,6 @@ instructors = [
 # A list of upcoming workshops. Again, each is a dictionary.
 #
 workshops = [
-    {
-        "title": "How to Hire Your First Employee",
-        "date": datetime.date(2014, 11, 11),
-        "google_docs_form_id": "1BF-Ns6gfiYkknSAozmW6PPyakJO3HaoAiMawSlUqWzw",
-        "description": """
-            6-7pm. What happens when your venture is bigger than you? This workshop
-            provides an overview of the challenges and considerations involved in hiring
-            your first non-founder employees. We will look at legal compliance issues
-            in hiring, management and motivation, compensation, and establishing a
-            culture that will sustain your vision. Steve Gifford is a management consultant
-            and professor, focused on Human Resources Management. He advises small
-            businesses on their employee strategies for OEM America, and teaches
-            Organizational Leadership for Southern New Hampshire University.
-            Space is limited. Register by Nov. 9th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
-        {
-        "title": "How to Design a Beautiful Website for your Startup (Entrepreneurial Design Series)",
-        "date": datetime.date(2014, 11, 14),
-        "google_docs_form_id": "15Kom3yvR1acH42hb2ochYWw7aWNwWr3Sa_otPhUSlfI",
-        "description": """
-            4-5:30pm. Co-hosted with the Bass Media Techs, this workshop will walk you
-            through an introduction of general design principles, basic design knowledge
-            (typography, colors), current popular design styles, and a crash course on
-            using Adobe InDesign as a tool for rapid prototyping. Attendees will complete
-            a sample project, which will culminate in a poster and website on Weebly.  
-            Space is limited. Register by Nov. 12th at 11:59pm.
-        """,
-        "show": True,
-        "disabled": False,
-    },
         {
         "title": "Start Something @ CBEY: Intensive",
         "date": datetime.date(2014, 12, 6),
@@ -278,6 +245,39 @@ workshops = [
         """,
         "show": True,
         "disabled": False,
+    },
+        {
+        "title": "How to Hire Your First Employee",
+        "date": datetime.date(2014, 11, 11),
+        "google_docs_form_id": "1BF-Ns6gfiYkknSAozmW6PPyakJO3HaoAiMawSlUqWzw",
+        "description": """
+            6-7pm. What happens when your venture is bigger than you? This workshop
+            provides an overview of the challenges and considerations involved in hiring
+            your first non-founder employees. We will look at legal compliance issues
+            in hiring, management and motivation, compensation, and establishing a
+            culture that will sustain your vision. Steve Gifford is a management consultant
+            and professor, focused on Human Resources Management. He advises small
+            businesses on their employee strategies for OEM America, and teaches
+            Organizational Leadership for Southern New Hampshire University.
+            Space is limited. Register by Nov. 9th at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
+    },
+        {
+        "title": "How to Design a Beautiful Website for your Startup (Entrepreneurial Design Series)",
+        "date": datetime.date(2014, 11, 14),
+        "google_docs_form_id": "15Kom3yvR1acH42hb2ochYWw7aWNwWr3Sa_otPhUSlfI",
+        "description": """
+            4-5:30pm. Co-hosted with the Bass Media Techs, this workshop will walk you
+            through an introduction of general design principles, basic design knowledge
+            (typography, colors), current popular design styles, and a crash course on
+            using Adobe InDesign as a tool for rapid prototyping. Attendees will complete
+            a sample project, which will culminate in a poster and website on Weebly.  
+            Space is limited. Register by Nov. 12th at 11:59pm.
+        """,
+        "show": False,
+        "disabled": True,
     },
         {
         "title": "Taking and Editing Great Photos (Entrepreneurial Design Series)",
